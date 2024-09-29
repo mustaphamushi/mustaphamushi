@@ -37,15 +37,16 @@
 <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/fd1f17544b6b7e8afcdc18b04451d24e24d28177df277da63cee4960442197ef/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6a6176612f6a6176612d69636f6e2e737667"><img align="left" alt="Java" width="22px" src="https://camo.githubusercontent.com/fd1f17544b6b7e8afcdc18b04451d24e24d28177df277da63cee4960442197ef/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6a6176612f6a6176612d69636f6e2e737667" data-canonical-src="https://www.vectorlogo.zone/logos/java/java-icon.svg" style="max-width: 100%;"></a></p>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ef66a66ac38365ab905d29a914e9c0c815d21811f9af5090024d4f868c0f1307/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f707974686f6e2f707974686f6e2d69636f6e2e737667"><img align="left" alt="Python" width="22px" src="https://camo.githubusercontent.com/ef66a66ac38365ab905d29a914e9c0c815d21811f9af5090024d4f868c0f1307/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f707974686f6e2f707974686f6e2d69636f6e2e737667" data-canonical-src="https://www.vectorlogo.zone/logos/python/python-icon.svg" style="max-width: 100%;"></a></p> 
 
-[![VSC](https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg)](https://visualstudio.microsoft.com/)
-[![HTML](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JS](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Bootstrap](https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg)](https://getbootstrap.com/)
-[![Docker](https://www.vectorlogo.zone/logos/docker/docker-tile.svg)](https://www.docker.com/)
-[![React](https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg)](https://reactjs.org/)
-[![Vue](https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg)](https://vuejs.org/)
-[![NodeJS](https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg)](https://nodejs.org/)
-[![MongoDB](https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg)](https://www.mongodb.com/)
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://visualstudio.microsoft.com/"><img align="left" alt="VSC" width="22px" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img align="left" alt="HTML" width="22px" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img align="left" alt="CSS" width="22px" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img align="left" alt="JS" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://getbootstrap.com/"><img align="left" alt="Bootstrap" width="22px" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.docker.com/"><img align="left" alt="Docker" width="22px" src="https://www.vectorlogo.zone/logos/docker/docker-tile.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://reactjs.org/"><img align="left" alt="React" width="22px" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://vuejs.org/"><img align="left" alt="Vue" width="22px" src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://nodejs.org/"><img align="left" alt="NodeJS" width="22px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.mongodb.com/"><img align="left" alt="MongoDB" width="22px" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" style="max-width: 100%;"></a></p>
+
 
 </article>
