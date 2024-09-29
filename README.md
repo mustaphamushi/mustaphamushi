@@ -34,7 +34,7 @@
 
 <p dir="auto">
     <a target="_blank" rel="noopener noreferrer nofollow" href="https://supabase.com/">
-        <img align="left" alt="Supabase" width="22px" src="https://supabase.com/logo.svg" style="max-width: 100%;">
+        <img align="left" alt="Supabase" width="22px" src="https://supabase.com/favicon/apple-icon-152x152.png" style="max-width: 100%;">
     </a>
 </p>
 
