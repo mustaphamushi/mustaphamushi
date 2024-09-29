@@ -22,7 +22,7 @@
 
 <p dir="auto">
     <a target="_blank" rel="noopener noreferrer nofollow" href="https://remix.run/">
-        <img align="left" alt="Remix.run" width="22px" src="https://remix.run/logo.svg" style="max-width: 100%;">
+        <img align="left" alt="Remix.run" width="22px" src="https://remix.run/favicon-192.png" style="max-width: 100%;">
     </a>
 </p>
 
