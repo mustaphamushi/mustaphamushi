@@ -40,7 +40,7 @@
 
 <p dir="auto">
     <a target="_blank" rel="noopener noreferrer nofollow" href="https://fly.io/">
-        <img align="left" alt="Fly.io" width="22px" src="https://fly.io/logo.svg" style="max-width: 100%;">
+        <img align="left" alt="Fly.io" width="22px" src="https://fly.io/phx/ui/images/favicon/apple-touch-icon-3e4c9ce127b5cd6f5516638d4bbf1dd5.png?vsn=d" style="max-width: 100%;">
     </a>
 </p>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://visualstudio.microsoft.com/"><img align="left" alt="VSC" width="22px" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" style="max-width: 100%;"></a></p>
