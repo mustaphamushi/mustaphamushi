@@ -53,3 +53,5 @@
 <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://nodejs.org/"><img align="left" alt="NodeJS" width="22px" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" style="max-width: 100%;"></a></p>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.mongodb.com/"><img align="left" alt="MongoDB" width="22px" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" style="max-width: 100%;"></a></p>
 </article>
+
+![Metrics](/github-metrics.svg)
