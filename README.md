@@ -54,5 +54,5 @@
 <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.mongodb.com/"><img align="left" alt="MongoDB" width="22px" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" style="max-width: 100%;"></a></p>
 </article> 
 <br>
-<br>
+
 ![Metrics](/github-metrics.svg)
