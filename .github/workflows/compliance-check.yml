@@ -1,11 +1,13 @@
 # Managed by mustaphamushi/ansot-standards (scripts/sync.sh); the next sync overwrites local edits.
 # Runs .compliance/check.sh: a block-list hit fails the job, a warn-list hit becomes an annotation.
-# Triggers follow the owner's GitHub cost standard: pull requests, plus pushes to the default branch,
-# because direct commits there (this sync's own included) would otherwise never be checked. A push
-# that merges a pull request skips the job, since the pull request already checked that tree (a
-# skipped job bills nothing). paths-ignore skips binary-only changes; remove it if this check ever
-# becomes a required status check. Estimate: one job of a few seconds per event, billed as 1 minute
-# in private repositories and free in public ones.
+# Triggers follow the owner's GitHub cost standard (match each check to the merge it gates): public
+# output ships from the default branch, so the check runs on pull requests into it and on direct
+# pushes to it (this sync's own commits included). Pull requests into other branches, such as
+# staging, are checked when their changes reach the default branch. A push that merges a pull request
+# skips the job, since the pull request already checked that tree (a skipped job bills nothing).
+# paths-ignore skips binary-only changes; remove it if this check ever becomes a required status
+# check. Estimate: one job of a few seconds per event, billed as 1 minute in private repositories and
+# free in public ones.
 name: compliance-check
 
 on:
@@ -16,6 +18,7 @@ on:
       '**/*.ttf', '**/*.otf', '**/*.eot', '**/*.mp4', '**/*.webm', '**/*.mov', '**/*.m4v',
       '**/*.avi', '**/*.mkv']
   pull_request:
+    branches: ['main']
     paths-ignore: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.webp', '**/*.avif',
       '**/*.ico', '**/*.bmp', '**/*.tif', '**/*.tiff', '**/*.heic', '**/*.woff', '**/*.woff2',
       '**/*.ttf', '**/*.otf', '**/*.eot', '**/*.mp4', '**/*.webm', '**/*.mov', '**/*.m4v',
