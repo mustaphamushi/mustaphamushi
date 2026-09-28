@@ -5,7 +5,7 @@
 # Usage: bash .compliance/check.sh [directory]        (default: the current directory)
 #
 # Lists hold one case-insensitive extended regex per line, matched as whole words (grep -w), so a
-# pattern such as Toggl never matches "toggle".
+# pattern such as rank never matches "ranking".
 #   .compliance/block.txt  every hit prints file:line and the check fails (exit 1)
 #   .compliance/warn.txt   every hit becomes a ::warning annotation; warnings never fail
 # COMPLIANCE_BLOCK and COMPLIANCE_WARN point at other lists (the weekly audit uses this).
