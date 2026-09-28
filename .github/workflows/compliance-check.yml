@@ -1,0 +1,44 @@
+# Managed by mustaphamushi/ansot-standards (scripts/sync.sh); the next sync overwrites local edits.
+# Runs .compliance/check.sh: a block-list hit fails the job, a warn-list hit becomes an annotation.
+# Triggers follow the owner's GitHub cost standard: pull requests, plus pushes to the default branch,
+# because direct commits there (this sync's own included) would otherwise never be checked. A push
+# that merges a pull request skips the job, since the pull request already checked that tree (a
+# skipped job bills nothing). paths-ignore skips binary-only changes; remove it if this check ever
+# becomes a required status check. Estimate: one job of a few seconds per event, billed as 1 minute
+# in private repositories and free in public ones.
+name: compliance-check
+
+on:
+  push:
+    branches: ['main']
+    paths-ignore: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.webp', '**/*.avif',
+      '**/*.ico', '**/*.bmp', '**/*.tif', '**/*.tiff', '**/*.heic', '**/*.woff', '**/*.woff2',
+      '**/*.ttf', '**/*.otf', '**/*.eot', '**/*.mp4', '**/*.webm', '**/*.mov', '**/*.m4v',
+      '**/*.avi', '**/*.mkv']
+  pull_request:
+    paths-ignore: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.webp', '**/*.avif',
+      '**/*.ico', '**/*.bmp', '**/*.tif', '**/*.tiff', '**/*.heic', '**/*.woff', '**/*.woff2',
+      '**/*.ttf', '**/*.otf', '**/*.eot', '**/*.mp4', '**/*.webm', '**/*.mov', '**/*.m4v',
+      '**/*.avi', '**/*.mkv']
+
+concurrency:
+  group: compliance-check-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  compliance-check:
+    if: >-
+      github.event_name != 'push' ||
+      !(contains(github.event.head_commit.message, 'Merge pull request #') ||
+      contains(github.event.head_commit.message, '(#'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - run: bash .compliance/check.sh

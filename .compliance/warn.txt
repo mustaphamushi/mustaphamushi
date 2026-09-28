@@ -1,0 +1,3 @@
+aggregateRating
+countdown[ -]?timer
+guarantee[ds]? (#1|first[ -]page|top) (rank|ranking|position)s?
